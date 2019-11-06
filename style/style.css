@@ -1,0 +1,103 @@
+body{
+	background-color: #F2F2F2;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.header{
+	background-color: #fff;
+	box-shadow: 0 2px rgba(0,0,0,.2)
+}
+.wrapper{
+	margin: 16px 0
+}
+.button-log_in{
+	display: inline-block;
+	width: 36px;
+	height: 10px;
+	padding: 14px 20px;
+	border: 1px solid rgba(13,13,13,.2);
+	margin-right: 16px;
+	font-size: 13px;
+}
+.button-log_in:hover{
+	box-shadow: 0 0 10px rgba(23,3,154,.2) inset
+}
+.logo{
+	margin: 30px 0;
+}
+.search{
+	margin-top: 32px;
+	height: 48px;
+
+}
+input{
+	border: none;	
+}
+.search input{
+	width: 100%;
+	color: rgba(13,13,13,.7);
+	font-size: 16px;
+	border-bottom: 1px solid rgba(13,13,13,.2);;
+	background-color: #F2F2F2;
+}
+.card{
+	background-color: #fff;	
+	padding: 5px 0;
+	text-align: center;	
+}
+.rest-title{
+	font-size: 22px;
+}
+.catalog a{
+	display: block;
+}
+.card:hover{
+  background-color: #757575;
+  mix-blend-mode: normal;
+opacity: 0.8;	
+}
+.footer{
+	background-color: #262626;
+}
+.lang{
+	width: 227px;
+	height: 40px;
+	background-color: #3B3B3B;
+	border: 0;
+	color: #fff;
+}
+.footer-line{
+	padding: 40px 0;
+	border-bottom: 1px solid #fff;
+}
+.footer-line:nth-child(3){
+	margin: 0;
+}
+.social{color: #fff;}
+.hsh{color: #4B8B4A;}
+.social a{
+	color: #fff;
+}
+.menu_foot a{
+	display: block;	
+	color: #fff;
+	font-size: 13px;
+	padding-bottom: 23px;
+
+}
+.footer-apps{
+	text-align: center;
+
+}
+.footer-apps img{
+	padding-right: 40px;
+}
+.footer-copy{
+	color: #fff;
+	font-size: 11px;
+	padding: 40px 0;
+}
